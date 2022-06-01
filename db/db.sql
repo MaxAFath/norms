@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS db_norms;
+CREATE DATABASE db_norms;
+USE db_norms;
