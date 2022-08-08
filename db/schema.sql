@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS db_norms;
+CREATE DATABASE db_norms;
+USE db_norms;
+
 CREATE TABLE norms(
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     question VARCHAR(50) NOT NULL,
