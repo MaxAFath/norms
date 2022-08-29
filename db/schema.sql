@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS db_norms;
 CREATE DATABASE db_norms;
 USE db_norms;
 
-CREATE TABLE questions(
+CREATE TABLE norms(
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     question VARCHAR(50) NOT NULL,
     answer VARCHAR(30) NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE questions(
 
 CREATE TABLE stats(
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
-    correct INTEGER NOT NULL,
-    wrong INTEGER NOT NULL
+    correct INTEGER,
+    wrong INTEGER
 );
 
