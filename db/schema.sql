@@ -2,9 +2,16 @@ DROP DATABASE IF EXISTS db_norms;
 CREATE DATABASE db_norms;
 USE db_norms;
 
-CREATE TABLE norms(
+CREATE TABLE questions(
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     question VARCHAR(50) NOT NULL,
     answer VARCHAR(30) NOT NULL,
     recall_percent INTEGER NOT NULL
 );
+
+CREATE TABLE stats(
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    correct INTEGER NOT NULL,
+    wrong INTEGER NOT NULL
+);
+
