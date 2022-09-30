@@ -5,8 +5,20 @@ const { start } = require('repl');
 /*server should return qestion as (question, answer, percent correct)*/
 
 var quiz = temp;//stand in for sql response
-let quizSpace = getElementByClass('quiz');
+var position = 0; //position in quiz array
+const quizSpace = document.getElementById('Quiz');
 
-window.onload = start();
+function start() {
+    event.preventDefault();
+    
+}
+
+function ask(){
+    const question = createElement("div");
+    for(let i =0; i<3; i++){
+        question.innerHTML('<button ')
+    }
+}
+window.onload = ask();
 
 
