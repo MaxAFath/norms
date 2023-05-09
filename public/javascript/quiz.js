@@ -1,16 +1,18 @@
 /*this is to query the SQL server for multiple questions and get the awnsers and percentage correct response*/
 const fs = require('fs');
 const { start } = require('repl');
+const quiz = require('/quizSeed.js');
 
 /*server should return qestion as (question, answer, percent correct)*/
 
-var quiz = temp;//stand in for sql response
 var position = 0; //position in quiz array
 const quizSpace = document.getElementById('Quiz');
 
-function start() {
+function start(quizLength) {
     event.preventDefault();
-    
+    for(let i = quizLength; i> 0; i--){
+        
+    }
 }
 
 function ask(){
