@@ -9,7 +9,6 @@ var position = 0; //position in quiz array
 const quizSpace = document.getElementById('Quiz');
 
 function start(quizLength) {
-    event.preventDefault();
     for(let i = quizLength; i> 0; i--){
         
     }

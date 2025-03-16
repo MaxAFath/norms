@@ -251,7 +251,7 @@ var questions = [
     ('What is the last name of the Jocky with the most lifetime winners in horse racing?', 'Baze', 0.00),
     ('what is the last name of the man who was the voice of Mr. Magoo?', 'Backus', 0.00),
     ('What is the last name of the actor who portrayed Sergeant Friday on "Dragnet"?', 'Webb', 0.00),
-    ('What was the last name of the actor who portrayed The Father on television show "Father Knows Best"?', 'Young', 000),
+    ('What was the last name of the actor who portrayed The Father on television show "Father Knows Best"?', 'Young', 0.00),
     ('What was the last name of the ventriloquist who provided the voice for Charlie McCarthy?', 'Bergen', 0.00),
     ('What was the last name of the captain of the British ship "Bounty" when the mutiny occurred?', 'Bergen', 0.00),
     ('What was the last name of the inventor of the steamboat "Clermont"?', 'Fulton', 0.00),
