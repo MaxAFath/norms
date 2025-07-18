@@ -278,7 +278,7 @@ var questions = [
     ('What is the name of the rubber roller on a type writer?', 'Platen', 0.00),
     ('What was the name of the largest Confederate Military Prison during the Civil War?', 'Andersonville', 0.00),
     ('What is the last name of the author of "The Agony and The Ecstasy"?', 'Stone', 0.00),
-    ("What is the last name of Flash's Girlfriend in the comic strip" + ' "Flash Gordon"?', 'Arden', 0.00),
+    ("What is the last name of Flash's Girlfriend in the comic strip " + ' "Flash Gordon"?', 'Arden', 0.00),
     ('What is the name of the first movie to receive the academy award for best picture?', 'Wings', 0.00),
     ('What it the last name of the discoverer of the vaccination for Smallpox"', 'Jenner', 0.00),
     ('What iss the last name of the boy in the book "Treasure Island"?', 'Hawkins', 0.00),
